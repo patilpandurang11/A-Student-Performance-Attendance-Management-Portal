@@ -1,0 +1,36 @@
+@import url('https://fonts.google.com/share?selection.family=Volkhov:ital,wght@0,400;0,700;1,400;1,700');
+ul{
+	margin:0;
+	padding:0;
+	list-style: none;
+	height:40px;
+	line-height: 36px;
+	background-color: #000;
+	font-family: Volkhov;
+	font-size: 13px;
+
+}
+li{
+	float: right;
+	/*border-left:1px solid #156ee2;*/
+
+}
+a{
+	display: block;
+	padding: 0 32px;
+    font-size: 20px;
+	color: #fff;
+	text-decoration: none;
+}
+a:hover{
+	background-color: #156ee2;
+}
+.active a{
+	background-color: #156ee2;
+}
+.logo a{
+    font-family: 'Allura', cursive;
+    font-size: 32px;
+    color: #ffff00;
+    position: absolute;
+}
